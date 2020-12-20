@@ -12,8 +12,8 @@ jobs:
         uses: mnorrsken/helm-gh-pages@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          # charts_dir: charts
-          # charts_url: https://mnorrsken.github.io
-          # owner: mnorrsken
-          # repository: charts
-          # branch: gh-pages
+          charts_dir: .
+          charts_url: https://mnorrsken.github.io
+          owner: mnorrsken
+          repository: charts
+          branch: master
