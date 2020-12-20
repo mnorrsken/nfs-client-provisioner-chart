@@ -7,7 +7,7 @@ strategyType: Recreate
 
 image:
   repository: mrnr91/nfs-client-provisioner
-  tag: 0.1
+  tag: 0.2
   pullPolicy: IfNotPresent
 
 nfs:
